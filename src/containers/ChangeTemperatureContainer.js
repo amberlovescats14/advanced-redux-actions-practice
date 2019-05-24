@@ -6,4 +6,4 @@ const mapDispatchToProps = (dispatch) => ({
   set: (temp) => dispatch(setTemp(temp))
 })
 
-export default connect(mapDispatchToProps)(ChangeTemperature)
+export default connect(null, mapDispatchToProps)(ChangeTemperature)

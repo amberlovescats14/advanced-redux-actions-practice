@@ -6,4 +6,4 @@ const mapDispatchToProps = (dispatch) => ({
   action: (text) => dispatch(setSearchText(text))
 })
 
-export default connect(mapDispatchToProps)(SearchTextBox)
+export default connect(null, mapDispatchToProps)(SearchTextBox)

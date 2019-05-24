@@ -6,4 +6,4 @@ const mapDispatchToProps = (dispatch) => ({
   set: (URL) => dispatch(setVideoURL(URL))
 })
 
-export default connect(mapDispatchToProps)(VideoTextBox)
+export default connect(null, mapDispatchToProps)(VideoTextBox)

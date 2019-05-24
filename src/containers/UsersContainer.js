@@ -8,6 +8,6 @@ const mapStateToProps = (state) => {
     sortOn: state.setCurrentUserSort
   }
 }
-export default connect(mapStateToProps)(Users)
+export default connect(mapStateToProps, null)(Users)
 
 

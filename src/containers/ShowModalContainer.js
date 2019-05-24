@@ -6,4 +6,4 @@ const mapDispatchToProps = (dispatch) => ({
   setIsLoading: (isLoading) => dispatch(setIsLoading(isLoading))
 })
 
-export default connect(mapDispatchToProps)(ShowModal)
+export default connect(null, mapDispatchToProps)(ShowModal)

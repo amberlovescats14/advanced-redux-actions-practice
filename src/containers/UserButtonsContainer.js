@@ -4,10 +4,10 @@ import { addUser, removeUser } from '../actions/index'
 
 const mapDispatchToProps = (dispatch) => {
   return {
-    increase: (user) => dispatch(addUser(user)),
-    decrease: () => dispatch(removeUser()),
+    add: (users) => dispatch(addUser(users)),
+    remove: (users) => dispatch(removeUser(users)),
 
   }
 }
 
-export default connect(mapDispatchToProps)(UserBottons)
+export default connect(null, mapDispatchToProps)(UserBottons)

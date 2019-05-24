@@ -6,4 +6,4 @@ const mapDispatchToProps = (dispatch) => ({
   set: (city) => dispatch(setCurrentCity(city))
 })
 
-export default connect(mapDispatchToProps)(CityDropDown)
+export default connect(null, mapDispatchToProps)(CityDropDown)

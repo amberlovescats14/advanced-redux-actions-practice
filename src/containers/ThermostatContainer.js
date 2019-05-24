@@ -7,4 +7,4 @@ const mapStateToProps = (state) => {
   }
 }
 
-export default connect(mapStateToProps)(Thermostat)
+export default connect(mapStateToProps, null)(Thermostat)

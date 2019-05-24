@@ -7,4 +7,4 @@ const mapDispatchToProps = (dispatch) => ({
   decrease: () => dispatch(decreaseCounter())
 })
 
-export default connect(mapDispatchToProps)(CounterButton)
+export default connect(null, mapDispatchToProps)(CounterButton)

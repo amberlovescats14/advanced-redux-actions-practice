@@ -6,4 +6,4 @@ const mapDispatchToProps = (dispatch) => ({
   set: (sort) => dispatch(setCurrentUserSort(sort))
 })
 
-export default connect(mapDispatchToProps)(SortUsers)
+export default connect(null, mapDispatchToProps)(SortUsers)

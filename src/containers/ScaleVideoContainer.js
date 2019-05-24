@@ -6,4 +6,4 @@ const mapDispatchToProps = (dispatch) => ({
   set: (scale) => dispatch(setVideoScale(scale))
 })
 
-export default connect(mapDispatchToProps)(ScaleVideo)
+export default connect(null, mapDispatchToProps)(ScaleVideo)
