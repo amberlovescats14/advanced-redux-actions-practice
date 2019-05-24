@@ -33,6 +33,7 @@ View this video to see how the app should work once you are done coding. [Video]
 
   * users
     * if "REMOVE_USER" or "ADD_USER", it should return `state.slice(1)` to remove the first user or `[...state,action.value]` to add a user
+    state.concat([ action.value ])********
   
   * currentTemp
     * if "SET_TEMP", it should return action value
